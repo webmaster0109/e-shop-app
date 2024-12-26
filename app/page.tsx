@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Categories from "./components/Categories";
 
 export default function Home() {
   return (
-    <main className="">
-
+    <main className="mt-36">
+      <Categories />
     </main>
   );
 }
